@@ -1,14 +1,17 @@
-﻿Build started 11/6/2015 4:01:52 PM.
-     1>Project "C:\Ilya\project\Lists\Lists\Lists.vcxproj" on node 2 (Build target(s)).
+﻿Build started 08.11.2015 19:46:04.
+     1>Project "C:\Ilya\Lists\project\Lists\Lists\Lists.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         D:\Programs\VisualStudio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt fun.cpp Main.cpp
          Main.cpp
+         fun.cpp
+         Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Ilya\project\Lists\Debug\Lists.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Ilya\project\Lists\Debug\Lists.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Ilya\project\Lists\Debug\Lists.lib" /MACHINE:X86 Debug\fun.obj
+         D:\Programs\VisualStudio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Ilya\Lists\project\Lists\Debug\Lists.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Ilya\Lists\project\Lists\Debug\Lists.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Ilya\Lists\project\Lists\Debug\Lists.lib" /MACHINE:X86 Debug\fun.obj
          Debug\Main.obj
-         Lists.vcxproj -> C:\Ilya\project\Lists\Debug\Lists.exe
-     1>Done Building Project "C:\Ilya\project\Lists\Lists\Lists.vcxproj" (Build target(s)).
+         LINK : C:\Ilya\Lists\project\Lists\Debug\Lists.exe not found or not built by the last incremental link; performing full link
+         Lists.vcxproj -> C:\Ilya\Lists\project\Lists\Debug\Lists.exe
+     1>Done Building Project "C:\Ilya\Lists\project\Lists\Lists\Lists.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.83
+Time Elapsed 00:00:00.99
