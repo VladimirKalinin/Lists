@@ -5,6 +5,55 @@
 
 
 
+TEST(CNode, can_recognize_palindrom_with_lenth_3)
+{
+  struct CNode* t;
+  struct CNode* start; 
+  start = new struct CNode();
+  start->val = 0;
+  start->next = new struct CNode();
+  t=start->next;
+  t->val=3;
+  t->next = new struct CNode();
+  t=t->next;
+  t->val=0;
+  t->next=0;
+  printf("0 3 0\n");
+  EXPECT_EQ(1, palindrom(&start));
+}
+
+TEST(CNode, can_recognize_palindrom_with_lenth_2)
+{
+  struct CNode* t;
+  struct CNode* start; 
+  start = new struct CNode();
+  start->val = 1;
+  start->next = new struct CNode();
+  t=start->next;
+  t->val=1;
+  t->next=0;
+  printf("1 1\n");
+  EXPECT_EQ(1, palindrom(&start));
+}
+
+TEST(CNode, can_recognize_palindrom_with_lenth_1)
+{
+  struct CNode* t;
+  struct CNode* start; 
+  start = new struct CNode();
+  start->val = 1;
+  start->next = 0;
+  printf("1\n");
+  EXPECT_EQ(1, palindrom(&start));
+}
+
+TEST(CNode, can_recognize_empty_list)
+{
+  struct CNode* start=0; //если в нем вообще нет символов, это же не полиндром, да?
+
+  EXPECT_NE(1, palindrom(&start));
+}
+
 TEST(CNode, can_recognize_palindrom_with_odd_lenth)
 {
   struct CNode* t;
